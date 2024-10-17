@@ -1,0 +1,378 @@
+html, body {
+  overflow: auto;
+}
+
+.slide-up {
+    transform: translateY(0);
+    opacity: 1;
+    transition: transform 0.11s ease-out, opacity 0.11s ease-out;
+}
+.slide-up.hidden {
+    transform: translateY(-100%);
+    opacity: 0;
+}
+
+.game i fa-solid fa-magnifying-glass:hover {
+    background-color: blue;
+}
+
+/* Style The Dropdown Button */
+.dropbtn {
+    color: white;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    z-index: 460;
+    position: relative;
+    left: 5px;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    height: 30px;
+    bottom: 55px;
+    left: 270px;
+    z-index: 450;
+    
+
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    visibility:hidden;
+    position: relative;
+    right: 271px;
+    top: 1.3px;    
+    background-color:black;
+    height: 350px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    
+  }
+  
+  /* Links inside the dropdown */
+  
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    visibility: visible;
+    color: #f1f1f1;
+  }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+    text-decoration: underline;
+    text-decoration-color: white ;
+    text-decoration-thickness: 2px ;
+    text-underline-offset: 4px;
+
+  }
+
+  .dropbtn2 {
+    color: white;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    z-index: 460;
+    position: relative;
+    left: 5px;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown2 {
+    position: relative;
+    height: 30px;
+    bottom: 84px;
+    left: 350px;
+    z-index: 450;
+    
+
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content2 {
+    visibility:hidden;
+    position: relative;
+    right: 350px;
+    top: 0.1vh;    
+    background-color:black;
+    height: 480px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    
+  }
+  
+  /* Links inside the dropdown */
+  
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content2 a:hover {background-color: #f1f1f1}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown2:hover .dropdown-content2 {
+    visibility: visible;
+    color: #f1f1f1;
+  }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown2:hover .dropbtn2 {
+    text-decoration: underline;
+    text-decoration-color: white ;
+    text-decoration-thickness: 2px ;
+    text-underline-offset: 4px;
+
+  }
+
+
+
+  .dropbtn3 {
+    color: white;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    z-index: 460;
+    position: relative;
+    left: 5px;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown3 {
+    position: relative;
+    height: 30px;
+    bottom: 114px;
+    left: 430px;
+    z-index: 450;
+    
+
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content3 {
+    visibility:hidden;
+    position: relative;
+    right: 430px;
+    top: 0.1vh;    
+    background-color:black;
+    height: 510px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    
+  }
+  
+  /* Links inside the dropdown */
+  
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content3 a:hover {background-color: #f1f1f1}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown3:hover .dropdown-content3 {
+    visibility: visible;
+    color: #f1f1f1;
+  }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown3:hover .dropbtn3 {
+    text-decoration: underline;
+    text-decoration-color: white ;
+    text-decoration-thickness: 2px ;
+    text-underline-offset: 4px;
+
+  }
+
+  .dropbtn4 {
+    color: white;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    z-index: 460;
+    position: relative;
+    left: 5px;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown4{
+    position: relative;
+    height: 30px;
+    bottom: 143px;
+    left: 545px;
+    z-index: 450;
+    
+
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content4{
+    visibility:hidden;
+    position: relative;
+    right: 545px;
+    top: 0vh;    
+    background-color:black;
+    height: 520px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    
+  }
+  
+  /* Links inside the dropdown */
+  
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content4 a:hover {background-color: #f1f1f1}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown4:hover .dropdown-content4 {
+    visibility: visible;
+    color: #f1f1f1;
+  }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown4:hover .dropbtn4 {
+    text-decoration: underline;
+    text-decoration-color: white ;
+    text-decoration-thickness: 2px ;
+    text-underline-offset: 4px;
+
+  }
+
+  .dropbtn5 {
+    color: white;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    z-index: 460;
+    position: relative;
+    left: 5px;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown5{
+    position: relative;
+    height: 30px;
+    bottom: 173px;
+    left: 633px;
+    z-index: 450;
+    
+
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content5{
+    visibility:hidden;
+    position: relative;
+    right: 633px;
+    top: 0vh;    
+    background-color:black;
+    height: 450px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    
+  }
+  
+  /* Links inside the dropdown */
+  
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content5 a:hover {background-color: #f1f1f1}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown5:hover .dropdown-content5 {
+    visibility: visible;
+    color: #f1f1f1;
+  }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown5:hover .dropbtn5 {
+    text-decoration: underline;
+    text-decoration-color: white ;
+    text-decoration-thickness: 2px ;
+    text-underline-offset: 4px;
+
+  }
+
+  .dropbtn6 {
+    color: white;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    z-index: 460;
+    position: relative;
+    left: 5px;
+  }
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown6{
+    position: relative;
+    height: 30px;
+    bottom: 204px;
+    left: 733px;
+    z-index: 450;
+    
+
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content6{
+    visibility:hidden;
+    position: relative;
+    right: 733px;
+    top: 0vh;    
+    background-color:black;
+    height: 350px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    
+  }
+  
+  /* Links inside the dropdown */
+  
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content6 a:hover {background-color: #f1f1f1}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown6:hover .dropdown-content6 {
+    visibility: visible;
+    color: #f1f1f1;
+  }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown6:hover .dropbtn6 {
+    text-decoration: underline;
+    text-decoration-color: white ;
+    text-decoration-thickness: 2px ;
+    text-underline-offset: 4px;
+
+  }
+
+p.dapers:hover {
+  color: hsl(53, 86%, 47%);
+  cursor: pointer;
+}
+  
+.image {
+  display: flex;
+  flex-wrap: wrap;
+justify-content: center;
+}
+
+.image img {
+  width: 338px;
+  height: auto;
+}
+
+@media (max-width: 1352px) {
+  .image img {
+    width: 50%;
+  }
+}
+
+
+@media (max-width: 676px) {
+  .image img {
+    width: 100%;
+  }
+}
